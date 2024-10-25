@@ -1,0 +1,7 @@
+id: '20bd3ed0-1dd1-4788-1fdf-08dcf35ea6f8'
+version: 'v1.4'
+name: 'ODS'
+description: ''
+configuration:
+  id: 'biGENIUS.Implementation.Generator.Stage.Mssql.File'
+  version: '1.7.1'
