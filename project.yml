@@ -15,3 +15,4 @@ sourceSystems:
     name: 'L64_csv'
     description: ''
     sourceSystemTypeId: '9b8ae576-f449-4a79-ae0c-9b8aa2f95cfe'
+    activeDiscovery: '98254607-e559-4a24-8361-7b3fb6732c0e'
