@@ -11,3 +11,7 @@ sourceSystems:
     description: ''
     sourceSystemTypeId: '9b8ae576-f449-4a79-ae0c-9b8aa2f95cfe'
     activeDiscovery: '52c8b95e-a14b-4993-bd9c-8372786f1af3'
+  - id: 'ba651f6b-8709-49bf-8da7-4b0315c8448d'
+    name: 'L64_csv'
+    description: ''
+    sourceSystemTypeId: '9b8ae576-f449-4a79-ae0c-9b8aa2f95cfe'

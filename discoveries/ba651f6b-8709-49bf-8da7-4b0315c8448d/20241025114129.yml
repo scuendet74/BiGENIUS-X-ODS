@@ -1,0 +1,868 @@
+id: '98254607-e559-4a24-8361-7b3fb6732c0e'
+name: 'L64_Saison'
+timestamp: '2024-10-25T11:41:29.8577033Z'
+sourceSystem:
+  type: 'FlatFile'
+sourceObjects:
+  - name: 'L64_SAISON'
+    objectType: {}
+    terms:
+      - name: 'uid'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'jahr'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'monat'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hop_monat'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hop_id'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hop_name'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'tag_typ'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'vm_nr'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'tu_code'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'thh'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'ckv'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'debit'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'offert'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'pma'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'fa_von'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'fa_bis'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hla_von'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hla_bis'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'isb_von'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'isb_bis'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'isb_name'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'abschnitt_fa'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'abschnitt_hla'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'abschnitt_isb'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'korridor'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'vm_art'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'vm_typ'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'fa_soll_ab'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'fa_soll_an'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'verb_lst'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'vt'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hla_ekm'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'isb_ekm'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hla_t600'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hla_t650'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'isb_t600'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'isb_t650'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'zkm'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'akm'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'akm_kl1'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'akm_kl2'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'belegung'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'belegung_abt_kl1'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'belegung_abt_kl2'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'einsteiger'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'einsteiger_abt_kl1'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'einsteiger_abt_kl2'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'aussteiger'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'aussteiger_abt_kl1'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'aussteiger_abt_kl2'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'pkm'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'pkm_abt_kl1'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'pkm_abt_kl2'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'ptkm'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'ptkm_abt_kl1'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'ptkm_abt_kl2'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl_abt_kl1'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl_abt_kl2'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl_bas'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl_bas_abt_kl1'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl_bas_abt_kl2'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl_zus'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl_zus_abt_kl1'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl_zus_abt_kl2'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'fa_mla_von'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'fa_mla_bis'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hop_run_id'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'hop_run_fp_version'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'erl_et'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'pkm_et'
+        sourceDataType:
+          name: 'string'
+          length: 400
+          isNullable: true
+        dataType:
+          name: 'nvarchar'
+          length: 400
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+    attributes:
+      - key: 'ColumnDelimiter'
+        value: ','
+      - key: 'RowDelimiter'
+        value: '\n'
+      - key: 'FileExtension'
+        value: '.csv'
