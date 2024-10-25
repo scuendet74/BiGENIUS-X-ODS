@@ -1,0 +1,155 @@
+id: 'daf729aa-a733-4c58-991a-1d02c9f5fe4a'
+name: 'annees_horaires'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'dba74747-3ce6-4a31-aa21-3887ff538eaf'
+    name: 'Annee'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f8b7f2df-49bf-4f1e-b45c-ab69db8a8a46'
+    name: 'Debut'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '60083b72-aad5-4839-b0f9-681cd075a7bd'
+    name: 'Fin'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '077f0729-f838-4b01-9441-23cc2ea4b899'
+    name: 'Nombre de jours'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '143c1208-a884-40bf-b063-f1262413ba62'
+    name: 'SourceSystem_ID'
+    dataType:
+      scale: 0
+      precision: 10
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1b4124fb-9cbc-451a-b4c3-00a9f8b68ed0'
+    name: 'SourceObject_ID'
+    dataType:
+      scale: 0
+      precision: 10
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a0b81d38-c193-44aa-a93b-e091f7e262ef'
+    name: 'SA_Load_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '98221e66-96fb-4ed9-ac9e-3370111e3bd7'
+    name: 'ODS_Load_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1e89890f-c101-400b-9a3e-278c300455ad'
+    name: 'ODS_Unload_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '54d1c0ac-1752-4fa1-8b2f-2a96868bfa9f'
+    name: 'ODS_Update_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c6eeebae-73b4-428c-b96f-2c87097592d9'
+    name: 'ODS_ValidFrom'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '7d630302-7a43-4623-bed0-c065f2799cb9'
+    name: 'ODS_ValidTo'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '756fc541-6172-43a4-bd97-e1b05ee22244'
+    name: 'ODS_Status'
+    dataType:
+      length: 1
+      platformDataTypeId: '80d4cc92-0e85-4eef-adc0-c25d09754f6d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#52c8b95e-a14b-4993-bd9c-8372786f1af3'
+  - '$sourcesystem#id#30eb9030-2d61-40b3-95f6-d24e9f04d2f6'
+  - '$initial#name#annees_horaires'

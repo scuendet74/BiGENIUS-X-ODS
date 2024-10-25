@@ -1,0 +1,144 @@
+id: 'c2e805e3-4e25-4f44-bfed-b7e40d636807'
+name: 'Distance_entre_arrets'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'e0678c11-90f1-4ac5-8566-575c686eb812'
+    name: 'Depart'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '871034fe-7b65-4799-a9e0-f8e564c9ef06'
+    name: 'Arrivee'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4db79fcf-e093-4de1-a0fb-1601a2c6209b'
+    name: 'Longueur'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '35b5a324-2d6a-48ee-92f5-04a8c041e835'
+    name: 'SourceSystem_ID'
+    dataType:
+      scale: 0
+      precision: 10
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9dd3d929-0ef4-4ec6-968d-5a42c4986020'
+    name: 'SourceObject_ID'
+    dataType:
+      scale: 0
+      precision: 10
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ea433f90-2f08-4506-84b1-edc60da15d4b'
+    name: 'SA_Load_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'baf4ebea-6553-4cbc-ae0e-dde518d81e86'
+    name: 'ODS_Load_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5a85fdc3-02b1-4f7f-a3d7-eb59142b2b91'
+    name: 'ODS_Unload_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9f24ee34-7aed-409a-9a3a-74986d2a6189'
+    name: 'ODS_Update_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '24be3db0-e06c-4a88-a9a9-352dc012d729'
+    name: 'ODS_ValidFrom'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd4bdf123-3e9c-4701-8a49-70bbbb7fe4ec'
+    name: 'ODS_ValidTo'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'bdc71f7e-64e9-498c-9379-e1e23a76aee9'
+    name: 'ODS_Status'
+    dataType:
+      length: 1
+      platformDataTypeId: '80d4cc92-0e85-4eef-adc0-c25d09754f6d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#52c8b95e-a14b-4993-bd9c-8372786f1af3'
+  - '$sourcesystem#id#30eb9030-2d61-40b3-95f6-d24e9f04d2f6'
+  - '$initial#name#distance_entre_arrets'

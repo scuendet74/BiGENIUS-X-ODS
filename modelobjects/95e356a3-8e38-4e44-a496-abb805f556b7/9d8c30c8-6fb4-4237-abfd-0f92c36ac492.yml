@@ -1,0 +1,309 @@
+id: '9d8c30c8-6fb4-4237-abfd-0f92c36ac492'
+name: 'Train'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'd23d6242-6fbe-4053-80aa-a9f8c4b373b1'
+    name: 'No_de_train'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2060a7e2-54f8-48d9-b6c7-9ea169418888'
+    name: 'Genre_de_marche'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f6e58ccb-c41b-4a6e-a46d-2fccedd3ce08'
+    name: 'Gare_de_depart'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8ee5c847-4c7b-4ad1-b51d-052d11be1f1c'
+    name: 'Gare_d_arrivee'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '98648426-390e-4172-81e6-ccdfd5819a95'
+    name: 'Heure_de_depart'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6a361a42-bca8-4570-a7aa-48428cdb2dc4'
+    name: 'Heure_d_arrivee'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9abd5eaa-0a66-4530-adb6-08d93a5e3b2b'
+    name: 'Temps_de_parcours'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '7336117e-2d94-469f-a345-8cea8082e5dc'
+    name: 'Nom_validite'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'bcdaebd9-a282-4e3d-a6ad-daf83a98a0c9'
+    name: 'Numero_validite'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9bb11a5a-2f3c-4d6b-a69a-c59928a57359'
+    name: 'Nbre_jours_de_validite'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8da86dac-ac85-4cdc-ab8a-30d4d87fdeca'
+    name: 'Gare_de_depart2'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4ff00280-53e3-4846-a22f-1365cae18a61'
+    name: 'Gare_d_arrivee2'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6117efbd-0f38-41cf-be8b-e206a7f49523'
+    name: 'Heure_de_depart2'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f288e71d-6941-42af-a7d8-1a681afc197e'
+    name: 'Heure_d_arrivee2'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '38e1b020-1ed6-49ca-b2aa-86b0915a96eb'
+    name: 'Temps_de_parcours2'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a26d82bb-376b-4c6c-a633-85ab982753a6'
+    name: 'Nom_validite2'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '43f1b227-1763-40c6-9787-a827662c509f'
+    name: 'Numero_validite2'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '39cf95dc-2f39-4a0d-b911-5786c8912167'
+    name: 'Nbre_jours_de_validite2'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd6fdc685-d139-4748-b801-079483ea5fbd'
+    name: 'SourceSystem_ID'
+    dataType:
+      scale: 0
+      precision: 10
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6831ab83-fbf2-49c4-b368-f90043a57211'
+    name: 'SourceObject_ID'
+    dataType:
+      scale: 0
+      precision: 10
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9254dd9f-145c-49e7-b4ba-6b92ac945442'
+    name: 'SA_Load_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5e67705b-2a2d-49c7-b334-6d760902379b'
+    name: 'ODS_Load_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c14587ef-835a-405f-8737-c5dc6d573985'
+    name: 'ODS_Unload_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fd7f4277-d320-4995-bb74-ae4ae4b1690a'
+    name: 'ODS_Update_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'eb58c676-8862-4da8-8c0d-a7c2dccddd6e'
+    name: 'ODS_ValidFrom'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2053fa70-08b9-4d73-88ba-ee6c1aef55a3'
+    name: 'ODS_ValidTo'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ad3ca718-ac07-4c41-8602-8d97e73984b9'
+    name: 'ODS_Status'
+    dataType:
+      length: 1
+      platformDataTypeId: '80d4cc92-0e85-4eef-adc0-c25d09754f6d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#52c8b95e-a14b-4993-bd9c-8372786f1af3'
+  - '$sourcesystem#id#30eb9030-2d61-40b3-95f6-d24e9f04d2f6'
+  - '$initial#name#train'

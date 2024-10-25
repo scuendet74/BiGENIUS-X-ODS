@@ -1,0 +1,562 @@
+id: 'd8b77cb8-4954-41dc-bd8d-a32d3e4ee443'
+name: 'L68_SAISON_Source'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'e086a2d1-c1b6-4398-a777-9863578d3019'
+    name: 'jahr'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '44e5e68a-c852-4a51-ae34-ced3c110c62d'
+    name: 'monat'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c4c5142e-5704-4eee-b561-a0a9b50f6529'
+    name: 'hop_monat'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '393342df-d408-4580-86fa-ecd78a2f3b84'
+    name: 'tag_typ'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c64fcb10-975a-41a0-9971-0bf6e0560dc1'
+    name: 'abschnitt_hla'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9f048c2b-6117-44dd-a529-2cd485a159c2'
+    name: 'ckv'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3f918e61-4cdb-4376-a116-8a3eb58a6e9f'
+    name: 'offert'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b2e65c1d-1d52-4ee4-9367-5fa066bd3042'
+    name: 'vm_art'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f47e901d-cddd-4227-97e4-60cdfb01a945'
+    name: 'faw_art'
+    dataType:
+      scale: 0
+      precision: 18
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e126ccc4-482f-4f5b-b002-b18ec21b5611'
+    name: 'faw_konto'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '292cc855-30bb-45db-a44e-3fd871781224'
+    name: 'abschnitt_isb'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c2e3afe9-dba2-4170-a688-18123295cbed'
+    name: 'thh'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '741cc406-6ca8-44c4-82ac-097e9869178f'
+    name: 'debit'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2adea269-4b04-461a-a3e1-33f35f59d0ce'
+    name: 'pma'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '01521797-cfc5-4fb5-a086-486d20415c28'
+    name: 'verb_lst'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3a9e618b-d35f-4951-82e3-d8bb2b5f04e9'
+    name: 'faw_art_name'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9a496679-c6c6-48d3-bf7c-18f5fae32706'
+    name: 'faw_konto_name'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '57b45b6f-4a45-4d60-a6d9-0c34e6d0e4f8'
+    name: 'faw_ler'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2066734c-63ee-4140-a93b-b88eda104680'
+    name: 'faw_gruppe'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '879327be-cc16-4ef1-be25-de9700f38366'
+    name: 'kundengruppe'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '182b5266-55e7-4d98-aefd-4842db0616b6'
+    name: 'belegung'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd7a14de5-2c6b-4ca9-89f8-283fd644f652'
+    name: 'belegung_faw_kl1'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '804ec4b1-26e6-4e04-925f-18df51d06bfd'
+    name: 'belegung_faw_kl2'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6852049e-9373-4245-b48d-cf3d082d32f2'
+    name: 'pkm'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6eba576f-025e-478c-b1b6-3a658e46d0e4'
+    name: 'pkm_faw_kl1'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a94ae667-f76c-4695-8c6a-848678f79f15'
+    name: 'pkm_faw_kl2'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3be61499-8776-4363-9c3e-cc0aaa3f7a32'
+    name: 'pkm_abt_kl1'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '39e97333-5608-4ddd-8405-ac27f780980f'
+    name: 'pkm_abt_kl2'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'cae43e4d-ac29-412f-b7d0-fa93fd6b9ae0'
+    name: 'ptkm'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'eefe92c3-a571-4a03-8a1a-3ef976627c02'
+    name: 'ptkm_faw_kl1'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c80a53db-496c-4d3e-a664-97f394ace68a'
+    name: 'ptkm_faw_kl2'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e00816dd-64a4-414e-a311-4590f173d16b'
+    name: 'ptkm_abt_kl1'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '312e9ee2-7ffa-4ee7-b5f2-7d9194d822d7'
+    name: 'ptkm_abt_kl2'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f87d16c8-f04a-4ecd-ae13-ffcf0aa7a5fb'
+    name: 'erl'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f1455f38-f786-4eee-a400-c32951eb57a3'
+    name: 'erl_faw_kl1'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '7f3bd781-e644-4317-88d1-fa2b88a60b70'
+    name: 'erl_faw_kl2'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b8e5f912-96f7-4ad8-9900-217f6faf79cd'
+    name: 'erl_bas'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9b1e350b-3d1b-490b-9c22-ae7cda121e26'
+    name: 'erl_bas_faw_kl1'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '11625bc6-bbee-4fe7-ac8c-ff6a74cb498c'
+    name: 'erl_bas_faw_kl2'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ad54a32a-1cd9-47ef-b8b9-efdec9f3080e'
+    name: 'erl_zus'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3e5caa92-0fe2-4540-8896-e7209c635eb3'
+    name: 'erl_zus_faw_kl1'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f3766c3d-d758-4abe-8c67-79f2017146dc'
+    name: 'erl_zus_faw_kl2'
+    dataType:
+      precision: 53
+      platformDataTypeId: 'bcd4619f-b9c0-4e79-a431-bcea664e7823'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f78c01a8-a0c9-40f7-a6ac-a1eceeea7f03'
+    name: 'hop_run_id'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4f90c307-71c5-47ed-bcef-82c541277794'
+    name: 'hop_run_fp_version'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f777a76a-0ebc-4edd-b451-caf19e95ad35'
+    name: 'erl_et'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '083873dd-06a6-44f2-93c4-174d2f6d5e5e'
+    name: 'pkm_et'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '39430143-bfce-4a66-a196-368578637c93'
+    name: 'korridor'
+    dataType:
+      length: 400
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4f723d2d-1902-459d-9680-6fc45e082f36'
+    name: 'SourceSystem_ID'
+    dataType:
+      scale: 0
+      precision: 10
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '851065e3-f2b3-4947-9696-d710eaf89428'
+    name: 'SourceObject_ID'
+    dataType:
+      scale: 0
+      precision: 10
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c27af9f1-4986-44b5-96f1-80c1a5f0d40a'
+    name: 'SA_Load_ID'
+    dataType:
+      scale: 0
+      precision: 19
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#52c8b95e-a14b-4993-bd9c-8372786f1af3'
+  - '$sourcesystem#id#30eb9030-2d61-40b3-95f6-d24e9f04d2f6'
+  - '$initial#name#l68_saison_source'

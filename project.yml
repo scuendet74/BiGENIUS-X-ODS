@@ -10,3 +10,4 @@ sourceSystems:
     name: 'Adventurework2020'
     description: ''
     sourceSystemTypeId: '9b8ae576-f449-4a79-ae0c-9b8aa2f95cfe'
+    activeDiscovery: '52c8b95e-a14b-4993-bd9c-8372786f1af3'
