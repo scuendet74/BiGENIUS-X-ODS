@@ -87,14 +87,15 @@ terms:
   - id: 'fc060d6f-3135-46b1-90bc-b3436d689845'
     name: 'Annee'
     dataType:
-      length: 400
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 400
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: '24adf05e-0b5f-40d7-b2ec-50f037621963'
     name: 'Debut'
     dataType:
