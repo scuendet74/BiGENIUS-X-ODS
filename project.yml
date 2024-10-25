@@ -5,3 +5,8 @@ description: ''
 configuration:
   id: 'biGENIUS.Implementation.Generator.Stage.Mssql.File'
   version: '1.7.1'
+sourceSystems:
+  - id: '30eb9030-2d61-40b3-95f6-d24e9f04d2f6'
+    name: 'Adventurework2020'
+    description: ''
+    sourceSystemTypeId: '9b8ae576-f449-4a79-ae0c-9b8aa2f95cfe'
